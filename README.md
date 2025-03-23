@@ -3,6 +3,7 @@
 ## React, Vite, TailwindCSS
 
 ### Required packages
-#### react-router-dom
-#### @fortawesome/free-solid-svg-icons
-#### @fortawesome/react-fontawesome
+#### npm install react-router-dom
+#### npm install @fortawesome/free-solid-svg-icons
+#### npm install @fortawesome/react-fontawesome
+#### npm install tailwindcss @tailwindcss/vite
