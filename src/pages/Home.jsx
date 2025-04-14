@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center p-30 bg-white">
+    <div className="min-h-screen flex flex-col items-center p-30 bg-white mt-4">
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
         <div className="flex flex-col items-center md:items-start space-y-6 w-full md:w-1/2 text-center md:text-left ">
           <img 
@@ -24,7 +24,7 @@ export default function Home() {
 
             <div className="pt-4">
               <Link 
-                to="/name"
+                to="/search"
                 className="inline-block px-6 py-3 bg-[#53bcb8] text-white rounded-md shadow-md hover:bg-[#7acbc8] transition duration-300 transform hover:scale-105 text-center"
               >
                 GET STARTED

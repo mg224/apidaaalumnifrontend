@@ -13,7 +13,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     return (
         <nav className="fixed top-0 w-full z-40 bg-white backdrop-blur-lg border-b border-white/10 shadow-lg">
             <div className="mx-auto px-4">
-                <div className="flex md:justify-around sm: justify-between items-center h-28 px-4">
+                <div className="flex items-center justify-between h-28 px-4">
                     <Link to="/" className="font-bold">
                         <img src={logo} alt="APIDAA Logo" className="w-35" />
                     </Link>
@@ -24,8 +24,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     </div>
 
                     {/* Desktop Menu */}
-                    <div className="hidden md:flex items-center justify-around w-full text-2xl ml-6">
-                        <Link to="/" className="text-gray-700 hover:text-gray-500 transition-colors">
+                    <div className="hidden md:flex justify-end w-full text-2xl ml-6">
+                        {/* <Link to="/" className="text-gray-700 hover:text-gray-500 transition-colors">
                           <FontAwesomeIcon icon={faHome} />
                         </Link>
 
@@ -39,9 +39,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
                         <Link to="/industry" className="text-gray-700 hover:text-gray-500 transition-colors">
                           <FontAwesomeIcon icon={faBriefcase}/>
-                        </Link>
+                        </Link> */}
                         
-                        <Link to="/name" className="text-gray-700 hover:text-gray-500 transition-colors">
+                        <Link to="/search" className="text-gray-700 hover:text-gray-500 transition-colors">
                           <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </Link>
                     </div>

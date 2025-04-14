@@ -7,4 +7,5 @@
 
 html {
     font-family: var(--font-kanit);
+    background-color: var(--color-gray-50);
 }
