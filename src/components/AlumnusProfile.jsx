@@ -7,9 +7,9 @@ export default function AlumnusProfile({ alumnus }) {
 
   const getImageUrl = (headshot) => {
     if (!headshot) {
-      return `${import.meta.env.VITE_API_URL}/api/alumnus/images/fallbackheadshot.png`
+      return `${import.meta.env.VITE_API_URL}/headshots/fallbackheadshot.png`
     } else {
-      return `${import.meta.env.VITE_API_URL}/api/alumnus/images/${headshot}`
+      return `${import.meta.env.VITE_API_URL}/headshots/${headshot}`
     }
   }
 
@@ -27,7 +27,7 @@ export default function AlumnusProfile({ alumnus }) {
               alt={alumnus.name}
               className="w-full h-full object-cover rounded-full"
               onError={(e) => {
-                e.target.src = `${import.meta.env.VITE_API_URL}/api/alumnus/images/fallbackheadshot.png`;
+                e.target.src = `${import.meta.env.VITE_API_URL}/headshots/fallbackheadshot.png`;
               }}
             />
           </div>
