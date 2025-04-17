@@ -41,6 +41,14 @@ export default function Home() {
           />
         </div>
 
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+          <img 
+            src={`${import.meta.env.VITE_API_URL}/api/alumnus/images/fallbackheadshot.png`} 
+            alt="APIDAA Group Photo" 
+            className="min-w-80 md:w-90 h-120 object-cover border-black border-2"
+          />
+        </div>
+
       </div>
     </div>
   )

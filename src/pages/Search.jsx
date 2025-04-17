@@ -16,7 +16,7 @@ export default function Search() {
 
       try {
         const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/alumnus`)
-        console.log(response.data)
+        // console.log(response.data)
         setAlumniData(response.data)
 
       } catch (err) {
