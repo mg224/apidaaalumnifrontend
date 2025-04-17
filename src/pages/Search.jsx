@@ -41,6 +41,9 @@ export default function Search() {
       matchSearch = alum.name.toLowerCase().includes(searchQuery.toLowerCase())
     }
     else if (searchCategory === "gradyear") {
+      if (searchQuery === "") {
+        return true
+      }
       matchSearch = alum.year == searchQuery
     }
     else if (searchCategory === "pastroles") {
