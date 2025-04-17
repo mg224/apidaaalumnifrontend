@@ -23,11 +23,11 @@ export default function AlumnusProfile({ alumnus }) {
         <div className="flex flex-col items-center">
           <div className="w-50 h-50 mb-4">
             <img 
-              src={`${import.meta.env.VITE_API_URL}/api/alumnus/images/${alumnus.headshot}`}
+              src={getImageUrl(alumnus.headshot)}
               alt={alumnus.name}
               className="w-full h-full object-cover rounded-full"
               onError={(e) => {
-                e.target.src = '/placeholder-headshot.png';
+                e.target.src = `${import.meta.env.VITE_API_URL}/api/alumnus/images/fallbackheadshot.png`;
               }}
             />
           </div>
