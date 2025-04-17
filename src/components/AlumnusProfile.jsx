@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export default function AlumnusProfile({ alumnus }) {
 
-  console.log(alumnus)
+  // console.log(alumnus)
 
   const getImageUrl = (headshot) => {
     if (!headshot) {
