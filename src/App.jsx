@@ -10,7 +10,6 @@ function App() {
 
   const [menuOpen, setMenuOpen] = useState(false)
 
-
   return (
     <>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
