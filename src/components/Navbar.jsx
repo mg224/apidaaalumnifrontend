@@ -25,22 +25,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex justify-end w-full text-2xl ml-6">
-                        {/* <Link to="/" className="text-gray-700 hover:text-gray-500 transition-colors">
-                          <FontAwesomeIcon icon={faHome} />
-                        </Link>
-
-                        <Link to="/gradyear" className="text-gray-700 hover:text-gray-500 transition-colors">
-                          <FontAwesomeIcon icon={faGraduationCap} />
-                        </Link>
-
-                        <Link to="/pastroles" className="text-gray-700 hover:text-gray-500 transition-colors">
-                          <FontAwesomeIcon icon={faUser} />
-                        </Link>
-
-                        <Link to="/industry" className="text-gray-700 hover:text-gray-500 transition-colors">
-                          <FontAwesomeIcon icon={faBriefcase}/>
-                        </Link> */}
-                        
                         <Link to="/search" className="text-gray-700 hover:text-gray-500 transition-colors">
                           <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </Link>

@@ -12,15 +12,6 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             <Link to="/" className={`text-2xl font-semibold text-gray-700 hover:text-gray-500  my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} onClick={() => setMenuOpen(false)}>
                 Home
             </Link>
-            {/* <Link href="/gradyear" className={`text-2xl font-semibold text-gray-700 hover:text-gray-500  my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} onClick={() => setMenuOpen(false)}>
-                Grad Year
-            </Link>
-            <Link href="/pastroles" className={`text-2xl font-semibold text-gray-700 hover:text-gray-500  my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} onClick={() => setMenuOpen(false)}>
-                Past Roles
-            </Link>
-            <Link to="/industry" className={`text-2xl font-semibold text-gray-700 hover:text-gray-500  my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} onClick={() => setMenuOpen(false)}>
-                Current Industry
-            </Link> */}
             <Link to="/search" className={`text-2xl font-semibold text-gray-700 hover:text-gray-500  my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} onClick={() => setMenuOpen(false)}>
                 Search
             </Link>
