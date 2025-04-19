@@ -68,6 +68,7 @@ export default function Search() {
       <div className="mt-36 bg-gray-50">
         <div className="flex flex-col items-center justify-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Search Alumni</h1>
+          <p className="text-sm text-gray-900 text-center">Search our alumni directory! Please allow a minute for the back end to spin up for the first few loads.</p>
           <div className="flex gap-4">
             <input 
               type="text"
