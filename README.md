@@ -1,8 +1,14 @@
-# APIDAA Alumni Frontend
+# APIDAA Alumni Platform
 
-## Visit the website at https://apidaaalumniplatform.vercel.app/
+### The APIDAA Alumni Platform is a full-stack web application built for Emory Asian Pacific Islander Desi American Activists (APIDAA) to facilitate the networking of current members with alumni. The site features a directory of alumni and a search feature, allowing users to view all alumni and search based on the categories of name, graduation year, past APIDAA roles, and current pursuits. 
 
-## React, Vite, TailwindCSS
+### You can visit the website here: https://apidaaalumniplatform.vercel.app/
+
+#### Tech stack: React.js, Spring Boot, PostgreSQL
+
+## This is the repository with code for the frontend app, deployed on vercel.
+
+### Technologies: React, Vite, TailwindCSS
 
 ### Required packages
 #### npm install react-router-dom
