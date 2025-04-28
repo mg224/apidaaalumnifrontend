@@ -13,9 +13,9 @@ export default function AlumnusProfile({ alumnus }) {
     }
   }
 
-  useEffect(() => {
-    getImageUrl(alumnus.headshot)
-  })
+  // useEffect(() => {
+  //   getImageUrl(alumnus.headshot)
+  // })
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col h-full">
@@ -38,8 +38,8 @@ export default function AlumnusProfile({ alumnus }) {
         </div>
         
         <div className="mt-4 pt-4 border-t border-gray-200 flex flex-col">
-          <p className="text-gray-700"><span className="font-medium">Current Pursuits:</span> {alumnus.industry}</p>
           <p className="text-gray-700 mt-2"><span className="font-medium">Past Roles:</span> {alumnus.pastRoles}</p>
+          <p className="text-gray-700"><span className="font-medium">Current Pursuits:</span> {alumnus.industry}</p>
         </div>
 
         <div className="flex-grow"></div>
